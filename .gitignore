@@ -1,0 +1,3 @@
+*.ogv
+/node_modules
+/webkitbuilds

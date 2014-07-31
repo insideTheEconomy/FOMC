@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>FOMC: Federal Open Market Committee</title>
+<script src="jquery-1.8.3.min.js" type="text/javascript"></script>
+<!--<script src="jquery.svgdom.js" type="text/javascript" ></script>
+-->
+<script src="FOMC.js" type="text/javascript"></script>
+<link href="styles.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+function MM_callJS(jsStr) { //v2.0
+  return eval(jsStr)
+}
+</script>
+</head>
+<body class="smacbookpro" onLoad="MM_callJS('initializeMe()')">
+<div id="outerContainer">
+<div id="innerContainer">
+<div id="content">
+	<h1>Loading...</h1>
+  <aside>
+      <div id="ticker"><h3>Breaking News</h3><ul></ul></div>
+      <div id="graph1">
+        <h3></h3>
+        <div class="legend"></div>
+        <svg id="gd1" class="graphdata"><polyline class='redline b' points='4.7,87.7 26.3,77.4 48.4,61.3 71.1,71.9 89.1,66.3 108,68.5 129.9,68.9 151.5,65.5 171.2,70.4 193.6,71.7 215,68.1 236.6,73.2 276,71.1 299.5,83.2 316.6,83.8 342.5,95.5 382.9,85.4 404.1,86.6 424.4,148.1 446.9,88.2'></polyline><polyline class='blueline a' points='3.7,55.9 47.3,10.1 67,37.6 89.2,36.1 110.2,21 130.8,22 151.9,34.4 172.9,31.8 197,34.4 213,33.3 233.7,40.9 256.2,29.9 275.7,41.3 297.9,68.2 316.5,55.7 337.4,51.7 360.4,62.2 380.7,76 402.7,75 423.3,126.2 445.8,95.4'></polyline></svg>
+        <svg id="gd2" class="graphdata"><polyline class='redline b' points='5.3,52.8 31.3,48.7 53.3,57.3 82.6,57.3 103.4,53.3 151.4,55.2 178.7,41.4 227.2,48.7 250,49.2 276.6,41.9 299.2,47.9 324,63.2 350,63.2 373.9,56.7 398.5,64.7 421.9,66.6 446.6,66.6' \/><polyline class='blueline a' points='4.8,86 30.1,97.2 53.3,101.9 80,94.6 104.7,80.1 126.7,85.3 152.7,83.2 177.4,87.9 202,98 275.2,88.6 324,87.9 348.7,79.3 373.1,50 398.6,64.7 419.8,70 445.8,61.4' /></svg>
+        <svg id="gd3" class="graphdata"><polyline class='redline b' points='3.9,86 21.4,86 40.1,90.7 77.5,85.4 97,92.7 113.8,96.7 133.1,86.7 151.7,52.2 169.3,94 187.4,100.1 206.2,84.7 226.3,85.4 246.4,98 256.5,99.5 280.6,112.1 299.3,108.1 317.4,107.6 335.6,109.5 372.4,134.3 390.5,123 428,141 446.6,132.9' /><polyline class='blueline a' points='4.7,126 22,125 59.7,104.7 78.7,121.3 97,124.7 116.7,109.3 133.3,99.3 152.7,76 169.3,91.3 188,79.3 206.3,62 222,56.7 244.7,44.7 262.7,46 280,80.3 298,83.3 317.3,79.7 334,82.7 390.7,89.3 407.3,101.3 426,106 446,95' /></svg>
+        <svg id="gd4" class="graphdata"><polyline class='redline b' points='5.2,83.5 20.5,90.2 31.2,83.5 44.5,83.5 73.2,77.5 91.9,76.9 104.6,79.5 117.3,81.5 132.6,90.2 143.3,91.9 157.3,98.9 171.3,103.5 187.3,103.5 199.3,108.9 214,104.9 226.6,108.9 240.7,108.9 252,112.3 280.7,112.3 296.7,103.5 322.8,98.9 341.4,98.2 350.1,101.5 362,99.5 376.8,104.2 391.5,108.2 410.1,110.9 432.1,110.9 447.5,115.5 447.9,115.6' /><polyline class='blueline a' points='4.7,49.7 21.3,54.3 32,55.7 61,50.3 76,35.3 89.7,26 102,30.7 116,39 131,63.3 143.7,108.7 158,130.7 172,134.7 185.7,132.7 201,146.7 211.3,148 229,157 240,159 253.3,170 267.3,160.7 281.7,160.7 295.3,137.7 309.3,99.7 323.3,83 336.7,79.3 351.3,86 364.7,79.7 392.3,91 406,109.3 418.7,105.3 447.3,109.7' /></svg>
+        <div class="vert"></div>
+        <table class="horiz"></table>
+        <div class="source"></div>
+        <div class="note"></div>
+	  </div>
+      <div id="graph2">
+        <h3></h3>
+        <svg id="gd5" class="graphdata"><polyline class='redline c' points='4.8,68.8 26.4,65 48.4,68.4 68.4,67.9 89.8,65 109.2,68.4 130.9,68.4 153.4,65 174.7,71.8 197.6,71.8 213.9,67.9 236.8,69.2 256.6,63 279.5,63 286.5,61.7 296.7,61.1 320.6,54.9 341.3,57.2 362.2,53.9 383.6,53.9 402.5,43.3 424.7,44.2 445.1,30.7 450.9,27.4 ' ></polyline></svg>
+        <svg id="gd6" class="graphdata"><polyline class='redline c' points='5.3,41.4 31.1,40.6 55,14.7 80,121.9 128.8,67 225.9,67 274.7,121.3 299.9,121.3 324,93.9 348.7,148.6 371.8,120 397.2,148.6 420.6,120.6 446.2,120.6' /></svg>
+        <svg id="gd7" class="graphdata"><polyline class='redline c' points='3.3,119 20.5,105.3 38.4,106.3 55.8,79.5 75.5,92.6 108.1,92.6 126.6,105.5 162.1,105.5 180.8,77.6 197.1,65.4 214.2,92.2 232.5,79.5 250.5,91.4 268,65.4 285,52.1 303.1,24 337.9,51.4 355.5,51.7 391.3,78.9 407.9,105 425.9,119 443.5,119 ' /></svg>
+        <svg id="gd8" class="graphdata"><polyline class='redline c' points='2,147.1 16.3,154.4 30.3,145.1 44.7,149.1 57.3,138.5 71.3,135.8 98,118.6 113.3,115.9 140,98.6 153.3,85.4 170.7,74.7 182.3,61.5 198.3,48.2 207,46.8 222.7,29.6 234.7,26.3 249.3,30.9 264.7,20.9 279.3,19.6 290,11 302,14.3 320.7,14.3 330.7,22.9 358.7,21.6 374.3,16.3 399,28.2 417.3,27.6 443.3,25.6' /></svg>
+      <div class="vert"></div>
+        <table class="horiz"></table>
+        <div class="note"></div>
+        <div class="source"></div>
+	  </div>
+  </aside>
+
+	<div id="visualaccess">&nbsp;</div>
+   <!-- <canvas id="h1canvas"  width="1600" height="100"></canvas>-->
+    <div id="seal"></div>
+    <div id="photo"></div>
+    <h2 id="subtitle"></h2>
+    <div id="bodyText">
+      <p>This game focuses on open market operations - the tool most often used by the FOMC.</p>
+      <p>In normal times, the Fed buys or sells securities to hit its target for the federal funds rate.</p> 
+    </div>
+    
+	<table cellpadding="0" cellspacing="0" id="contentTable">
+      <tr><td>Discount<br>rate</td>
+          <td>The interest rate charged by the Federal Reserve to banks for loans from the Fed's discount window.</td></tr>
+      <tr><td>Reserve<br>requirement</td>
+          <td>The percentage of a bank's deposits it is required by law to hold to meet possible demands for withdrawals.</td></tr>
+      <tr><td>Interest<br>on Reserve</td>
+          <td>The Fed pays banks interest on required and excess reserves. Paying interest on excess reserves improves the Fed’s ability to control short-term interest rates.</td></tr>
+      <tr><td>Open market<br>operation</td>
+          <td>Buying and selling of securities in order to influence interest rates. </td></tr>
+    </table>
+  	<h2 id="question"></h2>
+    <div id="buttonBar">
+    <button id="choice3" class="choice"></button>
+    <button id="choice1" class="choice"></button>
+    <button id="choice2" class="choice"></button>
+    <button class="nextButton">Next</button>       
+    </div>
+    <div id="helpPanel">
+    	<div></div>
+    	<button type="button" name="closeMe" id="closeButton">x</button>
+    </div>
+    <button id="help">Help</button>
+	<div id="correctAnswer">
+    	<div id="whatdid">
+    		<div id="what"></div>
+       		<div id="didit"></div>
+       </div>
+       <div id="answerText"></div>
+       <div id="answerQuote"></div>
+       <div class="source"></div>
+   		<button class="nextButton">Next</button>       
+    </div>
+</div> 
+<!-- #sectionSet -->
+</div> 
+<!-- #content -->
+<div id="inactivityAlertBox">
+	<h2>Please touch the screen or the program will reset due to inactivity...</h2>
+  <center></center>
+</div>	
+<div id="attract">
+  <video id="attractvideo" width="1920" height="1080" controls autoplay loop>
+    <source src="FOMC-attract_video.ogv" type='video/ogg; codecs="theora, vorbis"'>
+  </video>
+  <div id="attractbuttons"><button id="taketutorial">Take tutorial</button><button id="playgame">Play game</button></div>
+</div> <!-- #attract -->
+</div> <!-- #innerContainer -->
+</div> <!-- #outerContainer -->
+<audio id = "clickA" style="display: none;" src="sounds/onClick.ogg"></audio>
+<audio id = "clickB" style="display: none;" src="sounds/offClick.ogg"></audio>
+
+<script>
+// Load native UI library
+
+//global.window.nwDispatcher.requireNwGui();
+
+var gui = require('nw.gui');//or global.window.nwDispatcher.requireNwGui() (see https://github.com/rogerwang/node-webkit/issues/707)
+//var gui = js.Node.require('nw.gui');//or global.window.nwDispatcher.requireNwGui() (see https://github.com/rogerwang/node-webkit/issues/707)
+
+// Print arguments
+console.log(gui.App.argv);
+
+ //var gui = global.window.nwDispatcher.requireNwGui();
+// Get the current window
+  var win = gui.Window.get();
+
+	//win.width=1920;
+	//win.height=1080;
+	//win.enterFullscreen()
+	//win.maximize();
+	win.enterKioskMode();
+	
+	
+
+</script>
+</body>
+</html>
