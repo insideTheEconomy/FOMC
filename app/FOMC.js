@@ -39,10 +39,10 @@ function (data) {
 			} else if (e.which == 119) { //'w'
 				gui.Window.get().leaveKioskMode();
 			} else if (e.which == 109) { //'m'
-				if ($("body").hasClass("hidemouse")) {
-					$("body").removeClass("hidemouse");
+				if ($("html").hasClass("hidemouse")) {
+					$("html").removeClass("hidemouse");
 				} else {
-					$("body").addClass("hidemouse");
+					$("html").addClass("hidemouse");
 				}
 				//document.body.style.cursor = 'none';
 			} else if (e.which == 100) { //'d'
