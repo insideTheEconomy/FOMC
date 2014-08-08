@@ -7,12 +7,12 @@
 		"set":[
 			{
 				"title":"THE FED'S TOOLS",
-				"bodyText":"<p>The Fed's goal is to maintain low and stable inflation, which is good for the economy and for creating jobs.<\/p><p>It uses a variety of tools: open market operations, interest on reserves, the discount rate, and reserve requirements.<\/p>",
+				"bodyText":"<p>The Fed's goal is to maintain low and stable inflation, which is good for the economy and for creating jobs.<\/p><p>It uses a variety of tools: open market operations, interest on reserves, the discount rate and reserve requirements.<\/p>",
 				"tableText":"<tr><td>Open market<br>operations<\/td><td>Buying and selling of securities in order to influence interest rates. <\/td><\/tr><tr><td>Interest<br>on Reserves<\/td><td>The Fed pays banks interest on required and excess reserves. Paying interest on excess reserves improves the Fed’s ability to control short-term interest rates.<\/td><\/tr><tr><td>Discount<br>rate<\/td><td>The interest rate charged by the Federal Reserve to banks for loans from the Fed's discount window.<\/td><\/tr><tr><td>Reserve<br>requirement<\/td><td>The percentage of a bank's deposits it is required by law to hold to meet possible demands for withdrawals.<\/td><\/tr>"
 			},
 			{
 				"title":"OPEN MARKET OPERATIONS",
-				"bodyText":"<p>This game focuses on <u>open market operations<\/u> - the tool most often used by the FOMC.<\/p><p>In normal times, the Fed buys or sells <u>securities<\/u> to hit its target for the <u>federal funds rate<\/u>.<\/p>",
+				"bodyText":"<p>This game focuses on <u>open market operations,<\/u>the tool most often used by the FOMC.<\/p><p>In normal times, the Fed buys or sells <u>securities<\/u> to hit its target for the <u>federal funds rate<\/u>.<\/p>",
 				"tableText":"<tr><td>Open market operations<\/td><td>Buying and selling securities to influence interest rates. Examples include savings bonds, Treasury bills and notes.<\/td><\/tr><tr><td>Federal Funds Rate<\/td><td>Interest rate banks charge one another for overnight loans. If the federal funds rate rises, home and car loan rates will likely rise as well. <\/td><\/tr><tr><td>Federal Funds Rate Target<\/td><td>The FOMC sets a target for the federal funds interest rate and attempts to hit the target by buying or selling government securities.<\/td><\/tr>"
 			},
 			{
@@ -45,7 +45,7 @@
 			{
 				"scenario":"1",
 				"title":"FOMC Meeting December 11, 2001",
-				"bodyText":"<p>The nation, already in a recession, is focused on security in the wake of the September 11 attacks. Transportation, tourism, and other industries affected by the attacks have experienced heavy job losses. It was recently determined that a U.S. recession had begun in March 2001.<\/p>",
+				"bodyText":"<p>The nation, already in a recession, is focused on security in the wake of the September 11 attacks. Transportation, tourism and other industries affected by the attacks have experienced heavy job losses. It was recently determined that a U.S. recession had begun in March 2001.<\/p>",
 				"tableTitle":"Economic Snapshot",
 				"tableText":"<tr><td>Overall Economy<\/td><td>Economic activity has continued to decline.<\/td><\/tr><tr><td>Unemployment<\/td><td>The unemployment rate has increased.<\/td><\/tr><tr><td> Inflation<\/td><td>Inflation is below desirable levels.<\/td><\/tr><tr><td>General Outlook<\/td><td>Weak economic performance seems likely to continue.<\/td><\/tr><tr><td>Federal Funds<br>Rate Target<\/td><td>The FOMC has already lowered the target several times during 2001. It now stands at 2%.<\/td><\/tr>",
 				"headlineTicker":"<li>Labor market conditions have worsened<\/li><li>Weakness in demand shows preliminary signs of slowing<\/li><li>After large decline in September, consumer spending rebounds in October<\/li><li>Car sales strong thanks to zero-rate loans<\/li>",
@@ -82,7 +82,7 @@
 				"title":"FOMC Meeting August 24, 1999",
 				"bodyText":"<p>The turn of the century is four months away. People are worried that the Y2K &ldquo;bug&rdquo; could cause massive disruptions in computer systems.<\/p>",
 				"tableTitle":"Economic Snapshot",
-				"tableText":"<tr><td>Overall Economy<\/td><td>Economy is stable.<\/td><\/tr><tr><td>Unemployment<\/td><td>Job growth is strong; unemployment matched its average during the first half of 1999.<\/td><\/tr><tr><td>Inflation<\/td><td>Inflation is low but there are concerns it will increase.<\/td><\/tr><tr><td>General Outlook<\/td><td>The economy is expanding with only a few indications of slowing in consumer and business spending growth.<\/td><\/tr><tr><td>Federal Funds<br>Rate Target<\/td><td>The FOMC raised the target at its previous meeting. It now stands at 5%.<\/td><\/tr>",
+				"tableText":"<tr><td>Overall Economy<\/td><td>Economy is stable.<\/td><\/tr><tr><td>Unemployment<\/td><td>Job growth is strong; unemployment matched its average during the first half of 1999.<\/td><\/tr><tr><td>Inflation<\/td><td>Inflation is low, but there are concerns it will increase.<\/td><\/tr><tr><td>General Outlook<\/td><td>The economy is expanding with only a few indications of slowing in consumer and business spending growth.<\/td><\/tr><tr><td>Federal Funds<br>Rate Target<\/td><td>The FOMC raised the target at its previous meeting. It now stands at 5%.<\/td><\/tr>",
 				"headlineTicker":"<li>Payrolls grow sharply in June and July<\/li><li>Manufacturing production advances briskly <\/li><li>Export growth expected to strengthen<\/li><li>Financial markets functioning more normally after the global financial market turmoil of 1998<\/li>",
 				"graphs":[
 					{
@@ -119,7 +119,7 @@
 				"title":"FOMC Meeting March 16, 2004",
 				"bodyText":"<p>The U.S. housing market continues to boom. The ongoing war in Iraq preoccupies much of the country as it prepares for a presidential election.<\/p>",
 				"tableTitle":"Economic Snapshot",
-				"tableText":"<tr><td>Overall Economy<\/td><td>Economic activity continues to expand at a solid pace.<\/td><\/tr><tr><td>Unemployment<\/td><td>The labor market slowly improves and unemployment declines.<\/td><\/tr><tr><td>Inflation<\/td><td>Inflation is low and stable.<\/td><\/tr><tr><td>General Outlook<\/td><td>The economy is expanding broadly and the outlook has not changed significantly.<\/td><\/tr><tr><td>Federal Funds<br>Rate Target<\/td><td>The target has been at 1% since June 2003.<\/td><\/tr>",
+				"tableText":"<tr><td>Overall Economy<\/td><td>Economic activity continues to expand at a solid pace.<\/td><\/tr><tr><td>Unemployment<\/td><td>The labor market slowly improves and unemployment declines.<\/td><\/tr><tr><td>Inflation<\/td><td>Inflation is low and stable.<\/td><\/tr><tr><td>General Outlook<\/td><td>The economy is expanding broadly, and the outlook has not changed significantly.<\/td><\/tr><tr><td>Federal Funds<br>Rate Target<\/td><td>The target has been at 1% since June 2003.<\/td><\/tr>",
 				"headlineTicker":"<li>Job losses have moderated; hiring has yet to strengthen<\/li><li>Strong advances in production in high-tech industries<\/li><li>Consumer spending growth up in recent months<\/li><li>Retail contacts generally suggest continued sales growth<\/li>",
 				"graphs":[
 					 {
