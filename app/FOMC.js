@@ -38,13 +38,6 @@ function (data) {
 				gui.App.quit();
 			} else if (e.which == 119) { //'w'
 				gui.Window.get().leaveKioskMode();
-			} else if (e.which == 109) { //'m'
-				if ($("html").hasClass("hidemouse")) {
-					$("html").removeClass("hidemouse");
-				} else {
-					$("html").addClass("hidemouse");
-				}
-				//document.body.style.cursor = 'none';
 			} else if (e.which == 100) { //'d'
 				//environment.nodeWebKit = (typeof(process) === 'object' && process.features.uv) ? true : false;s
 				//if (environment.nodeWebKit === true) 
@@ -384,9 +377,9 @@ function launchAttract() {
 	
 	$('#buttonBar').css({'opacity':'0'});
 	setTimeout(function(){
-		setAttractButtonTimer();
+		//setAttractButtonTimer();
 		attractvideo.play();
-		attractvideo.addEventListener("playing", function() { setAttractButtonTimer(); }, true);
+		//attractvideo.addEventListener("playing", function() { setAttractButtonTimer(); }, true);
 		$('#ticker').removeClass().addClass( 'hidden' );
 		$('#attract').addClass('fadein');
 		$('aside').removeClass('slideIn').removeAttr( 'style' ).css({'display':'none'});
@@ -406,19 +399,19 @@ function launchAttract() {
 
 function setAttractButtonTimer() {
 	clearTimeout(attractButtonTimer);
-	attractButtonTimer = setTimeout(function(){ hideAttractButtons(); }, 1600);
+	//attractButtonTimer = setTimeout(function(){ hideAttractButtons(); }, 1600);
 }
 
 function displayAttractButtons() {
 	$('#attractbuttons').addClass('movein');
 	clearTimeout(attractButtonTimer);
-	attractButtonTimer = setTimeout(function(){ hideAttractButtons(); }, 5500);
+	//attractButtonTimer = setTimeout(function(){ hideAttractButtons(); }, 5500);
 	
 }
 function hideAttractButtons() {
 	$('#attractbuttons').removeClass('movein');	
 	clearTimeout(attractButtonTimer);
-	attractButtonTimer = setTimeout(function(){ displayAttractButtons(); }, 8400);
+	//attractButtonTimer = setTimeout(function(){ displayAttractButtons(); }, 8400);
 
 }
 
